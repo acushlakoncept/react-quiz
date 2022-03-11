@@ -14,8 +14,7 @@ fetch('/echo/', {
       'Accept': 'application/json, text/plain, */*',
       'Content-Type': 'application/json'
   },
-  body: 'json=' + encodeURIComponent(JSON.stringify(json.json)) + '&delay=' + json.delay
-  // body: json.json - Accepts a json type 
+  body: json.json
 })
 .then(function (response) {
   server_echo = response.json().echo
