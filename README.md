@@ -48,3 +48,44 @@ body: json.json
 The [https://www.datamuse.com/api/](https://www.datamuse.com/api/) was used
 
 > Note: Check the console If you run into CORS issues you can [launch chrome without CORS](https://alfilatov.com/posts/run-chrome-without-cors/)
+
+
+
+<hr >
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+Make sure Node.js is running on your local machine
+
+### Setup
+
+~~~bash
+$ git clone git@github.com:acushlakoncept/react-quiz.git
+$ cd react-quiz
+~~~
+
+Install modules:
+
+```
+npm install
+```
+
+### Usage
+
+Start server with:
+
+```
+  npm run dev
+```
+
+
+# Author
+
+👤 **Uduak Essien**
+
+- Github: [@acushlakoncept](https://github.com/acushlakoncept/)
+- Twitter: [@acushlakoncept](https://twitter.com/acushlakoncept)
+- Linkedin: [acushlakoncept](https://www.linkedin.com/in/acushlakoncept/)
