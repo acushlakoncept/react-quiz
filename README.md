@@ -4,7 +4,7 @@
 [Quize 001](./test1.ts)
 
 ## Q2
-[Quize 002](./test1.ts)
+Visit Live view [Quize 002](https://react-quiz-peach-nu.vercel.app/)
 
 ## Q3
 The code 
@@ -33,7 +33,18 @@ Refactored to [Quize 003](./test3.js) to improve readibility and reduce the unne
 
 Since the method of the `fetch` request is `POST`, the body would need a JSON object instead of an encodedURI.
 
-so `body: 'json=' + encodeURIComponent(JSON.stringify(json.json)) + '&delay=' + json.delay` will simply be `body: json.json`
+so 
+```js
+body: 'json=' + encodeURIComponent(JSON.stringify(json.json)) + '&delay=' + json.delay
+``` 
+will simply be 
+```js
+body: json.json
+```
 
 ## Q5
-[Quize 003](./test1.ts)
+[Quize 005](https://react-quiz-peach-nu.vercel.app/rhyme)
+
+The [https://www.datamuse.com/api/](https://www.datamuse.com/api/) was used
+
+> Note: Check the console If you run into CORS issues you can [launch chrome without CORS](https://alfilatov.com/posts/run-chrome-without-cors/)
