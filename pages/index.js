@@ -12,7 +12,7 @@ export default function Home() {
          <form className='w-full rounded font-Lato font-normal text-white'>
 
             <div className="mb-4">
-              <label className="block italic text-md font-bold mb-2" for="fullname">
+              <label className="block italic text-md font-bold mb-2" htmlFor="fullname">
                 Your full given name:
               </label>
               <input className="appearance-none border border-white bg-transparent w-full p-2.5 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-400" id="fullname" type="text" placeholder="John Doe" />
@@ -20,7 +20,7 @@ export default function Home() {
 
             <div className="mb-4 pt-4 flex flex-col sm:flex-row">
               <div className="pr-4 mb-4">
-                <label className="block italic text-md font-bold mb-2" for="dob">
+                <label className="block italic text-md font-bold mb-2" htmlFor="dob">
                   Date of Birth
                 </label>
                 <div className="relative">
@@ -37,7 +37,7 @@ export default function Home() {
               </div>
 
               <div>
-                <label className="block italic text-md font-bold mb-2" for="country">
+                <label className="block italic text-md font-bold mb-2" htmlFor="country">
                   Country of residence of citizenship:
                 </label>
                 <input className="appearance-none text-white border border-white bg-transparent w-full p-2.5 leading-tight placeholder-gray-400 focus:outline-none focus:shadow-outline" id="country" type="text" placeholder="Canada" />
@@ -45,14 +45,14 @@ export default function Home() {
             </div>
 
             <div className="my-4 pt-4">
-              <label className="block italic text-md font-bold mb-2" for="school">
+              <label className="block italic text-md font-bold mb-2" htmlFor="school">
                 What school do you plan to attend?
               </label>
               <input className="appearance-none border border-white bg-transparent rounded w-full p-2.5 placeholder-gray-400 leading-tight focus:outline-none focus:shadow-outline" id="school" type="text" placeholder="University of British Columbia" />
             </div>
 
             <div className="my-4 pt-4">
-              <label className="block italic text-md font-bold mb-2" for="studyarea">
+              <label className="block italic text-md font-bold mb-2" htmlFor="studyarea">
                 Please take a moment to describe your intended area of study:
               </label>
               <textarea className="appearance-none border border-white bg-transparent rounded w-full p-2.5 placeholder-gray-400 leading-tight focus:outline-none focus:shadow-outline" id="studyarea" type="text" placeholder="Enter details here" rows="6" />
